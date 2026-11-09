@@ -1,0 +1,11 @@
+# Turns Markdown into HTML, following the same rules as GitHub (CommonMark).
+markdown-it-py>=3.0
+
+# Adds footnotes, task lists (- [ ] todo) and links to headings.
+mdit-py-plugins>=0.4
+
+# Colors the code in code blocks.
+Pygments>=2.15
+
+# PDFs are made with Microsoft Edge or Google Chrome, which aren't Python packages.
+# Edge comes with Windows, so nothing extra is needed there.
